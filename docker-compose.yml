@@ -5,7 +5,7 @@ services:
     image: postgres
     environment:
       POSTGRES_PASSWORD: docker
-      POSTGRES_DB: gostack_desafio06_tests
+      POSTGRES_DB: gostack_desafio06
     ports:
       - 5432:5432
     volumes:
